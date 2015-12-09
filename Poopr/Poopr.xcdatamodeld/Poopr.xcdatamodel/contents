@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15B42" minimumToolsVersion="Xcode 4.3">
+    <entity name="PPRComment" representedClassName="PPRComment" syncable="YES">
+        <attribute name="authorID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="body" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="commentID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="localCommentID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="poop" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PPRPoop" inverseName="comments" inverseEntity="PPRPoop" syncable="YES"/>
+    </entity>
+    <entity name="PPRPlacemark" representedClassName="PPRPlacemark" syncable="YES">
+        <attribute name="administrativeArea" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="countryCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="locality" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="placemarkID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="postalCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subAdministrativeArea" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subLocality" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subThoroughfare" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thoroughfare" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="poop" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PPRPoop" inverseName="placemark" inverseEntity="PPRPoop" syncable="YES"/>
+    </entity>
+    <entity name="PPRPoop" representedClassName="PPRPoop" syncable="YES">
+        <attribute name="authorID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="poopID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="comments" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PPRComment" inverseName="poop" inverseEntity="PPRComment" syncable="YES"/>
+        <relationship name="placemark" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="PPRPlacemark" inverseName="poop" inverseEntity="PPRPlacemark" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="PPRComment" positionX="-63" positionY="117" width="128" height="150"/>
+        <element name="PPRPlacemark" positionX="-54" positionY="-9" width="128" height="285"/>
+        <element name="PPRPoop" positionX="-63" positionY="-18" width="128" height="135"/>
+    </elements>
+</model>

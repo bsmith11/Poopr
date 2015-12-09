@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="PPRSliderCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="BWo-jU-FhO" userLabel="Slider">
+                        <rect key="frame" x="14" y="7" width="225" height="31"/>
+                    </slider>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1VA-4P-OW9" userLabel="Slider Label">
+                        <rect key="frame" x="253" y="11" width="51" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="51" id="tnb-EF-Tau"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="centerY" secondItem="1VA-4P-OW9" secondAttribute="centerY" id="PjP-R1-ome"/>
+                    <constraint firstItem="BWo-jU-FhO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Rim-dd-jgG"/>
+                    <constraint firstAttribute="trailing" secondItem="1VA-4P-OW9" secondAttribute="trailing" constant="16" id="xg2-d2-4hY"/>
+                    <constraint firstAttribute="centerY" secondItem="BWo-jU-FhO" secondAttribute="centerY" id="yYx-Bk-RXi"/>
+                    <constraint firstItem="1VA-4P-OW9" firstAttribute="leading" secondItem="BWo-jU-FhO" secondAttribute="trailing" constant="16" id="zYw-9q-qMF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="slider" destination="BWo-jU-FhO" id="YVA-Bk-kra"/>
+                <outlet property="sliderLabel" destination="1VA-4P-OW9" id="jua-LQ-NJb"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

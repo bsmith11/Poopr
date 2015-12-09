@@ -1,0 +1,13 @@
+--- Pods/RZCollectionList/RZCollectionList/Classes/RZBaseCollectionList.m
++++ Pods/RZCollectionList/RZCollectionList/Classes/RZBaseCollectionList.m
+@@ -131,6 +131,10 @@
+             break;
+             
+         case RZCollectionListChangeMove:
++            if (indexPath.item == newIndexPath.item && indexPath.section == newIndexPath.section) {
++                notification.type = RZCollectionListChangeUpdate;
++            }
++
+             [self.pendingObjectMoveNotifications addObject:notification];
+             break;
+             

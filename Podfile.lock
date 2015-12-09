@@ -1,0 +1,149 @@
+PODS:
+  - Bolts/Tasks (1.3.0)
+  - CocoaLumberjack (2.0.1):
+    - CocoaLumberjack/Default (= 2.0.1)
+    - CocoaLumberjack/Extensions (= 2.0.1)
+  - CocoaLumberjack/Core (2.0.1)
+  - CocoaLumberjack/Default (2.0.1):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.1):
+    - CocoaLumberjack/Default
+  - Expecta (1.0.3)
+  - INTULocationManager (4.0.0)
+  - OCMock (3.1.5)
+  - OHHTTPStubs (4.3.0):
+    - OHHTTPStubs/Default (= 4.3.0)
+  - OHHTTPStubs/Core (4.3.0)
+  - OHHTTPStubs/Default (4.3.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (4.3.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (4.3.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (4.3.0)
+  - Parse (1.8.5):
+    - Bolts/Tasks (>= 1.2.2)
+  - ParseCrashReporting (1.8.5):
+    - Bolts/Tasks (>= 1.2.2)
+    - Parse (~> 1.8.5)
+  - pop (1.0.8)
+  - RZCollectionList (0.7.2)
+  - RZDataBinding (2.0.2)
+  - RZImport (1.3.0)
+  - RZUtils (2.5.1):
+    - RZUtils/All (= 2.5.1)
+  - RZUtils/All (2.5.1):
+    - RZUtils/Categories
+    - RZUtils/Components
+    - RZUtils/Utilities
+  - RZUtils/Categories (2.5.1):
+    - RZUtils/Categories/CoreAnimation (= 2.5.1)
+    - RZUtils/Categories/KVO (= 2.5.1)
+    - RZUtils/Categories/NSDate (= 2.5.1)
+    - RZUtils/Categories/NSDictionary (= 2.5.1)
+    - RZUtils/Categories/NSString (= 2.5.1)
+    - RZUtils/Categories/NSUndoManager (= 2.5.1)
+    - RZUtils/Categories/UIAlertView (= 2.5.1)
+    - RZUtils/Categories/UIColor (= 2.5.1)
+    - RZUtils/Categories/UIFont (= 2.5.1)
+    - RZUtils/Categories/UIImage (= 2.5.1)
+    - RZUtils/Categories/UIImageView (= 2.5.1)
+    - RZUtils/Categories/UIView (= 2.5.1)
+    - RZUtils/Categories/UIViewController (= 2.5.1)
+  - RZUtils/Categories/CoreAnimation (2.5.1)
+  - RZUtils/Categories/KVO (2.5.1)
+  - RZUtils/Categories/NSDate (2.5.1)
+  - RZUtils/Categories/NSDictionary (2.5.1)
+  - RZUtils/Categories/NSString (2.5.1)
+  - RZUtils/Categories/NSUndoManager (2.5.1)
+  - RZUtils/Categories/UIAlertView (2.5.1)
+  - RZUtils/Categories/UIColor (2.5.1)
+  - RZUtils/Categories/UIFont (2.5.1)
+  - RZUtils/Categories/UIImage (2.5.1)
+  - RZUtils/Categories/UIImageView (2.5.1)
+  - RZUtils/Categories/UIView (2.5.1)
+  - RZUtils/Categories/UIViewController (2.5.1)
+  - RZUtils/Components (2.5.1):
+    - RZUtils/Components/RZAnimatedCountingLabel (= 2.5.1)
+    - RZUtils/Components/RZAnimatedImageView (= 2.5.1)
+    - RZUtils/Components/RZButtonView (= 2.5.1)
+    - RZUtils/Components/RZCollectionTableView (= 2.5.1)
+    - RZUtils/Components/RZCollectionViewAnimationAssistant (= 2.5.1)
+    - RZUtils/Components/RZDelayedOperation (= 2.5.1)
+    - RZUtils/Components/RZLocationService (= 2.5.1)
+    - RZUtils/Components/RZProgressView (= 2.5.1)
+    - RZUtils/Components/RZRevealViewController (= 2.5.1)
+    - RZUtils/Components/RZSegmentedViewController (= 2.5.1)
+    - RZUtils/Components/RZSingleChildContainerViewController (= 2.5.1)
+    - RZUtils/Components/RZSplitViewController (= 2.5.1)
+    - RZUtils/Components/RZTelprompt (= 2.5.1)
+    - RZUtils/Components/RZViewFactory (= 2.5.1)
+    - RZUtils/Components/RZWebViewController (= 2.5.1)
+  - RZUtils/Components/RZAnimatedCountingLabel (2.5.1)
+  - RZUtils/Components/RZAnimatedImageView (2.5.1)
+  - RZUtils/Components/RZButtonView (2.5.1)
+  - RZUtils/Components/RZCollectionTableView (2.5.1)
+  - RZUtils/Components/RZCollectionViewAnimationAssistant (2.5.1)
+  - RZUtils/Components/RZDelayedOperation (2.5.1)
+  - RZUtils/Components/RZLocationService (2.5.1)
+  - RZUtils/Components/RZProgressView (2.5.1)
+  - RZUtils/Components/RZRevealViewController (2.5.1)
+  - RZUtils/Components/RZSegmentedViewController (2.5.1)
+  - RZUtils/Components/RZSingleChildContainerViewController (2.5.1)
+  - RZUtils/Components/RZSplitViewController (2.5.1)
+  - RZUtils/Components/RZTelprompt (2.5.1)
+  - RZUtils/Components/RZViewFactory (2.5.1)
+  - RZUtils/Components/RZWebViewController (2.5.1)
+  - RZUtils/Utilities (2.5.1):
+    - RZUtils/Utilities/RZCommonUtils (= 2.5.1)
+    - RZUtils/Utilities/RZDispatch (= 2.5.1)
+  - RZUtils/Utilities/RZCommonUtils (2.5.1)
+  - RZUtils/Utilities/RZDispatch (2.5.1)
+  - RZVinyl (1.1.3):
+    - RZVinyl/Extensions (= 1.1.3)
+  - RZVinyl/Core (1.1.3)
+  - RZVinyl/Extensions (1.1.3):
+    - RZImport (~> 1.1)
+    - RZVinyl/Core
+  - Specta (1.0.4)
+  - SSPullToRefresh (1.2.4)
+
+DEPENDENCIES:
+  - CocoaLumberjack (~> 2.0)
+  - Expecta
+  - INTULocationManager (~> 4.0)
+  - OCMock
+  - OHHTTPStubs
+  - Parse (~> 1.8)
+  - ParseCrashReporting (~> 1.8)
+  - pop (~> 1.0)
+  - RZCollectionList (~> 0.7)
+  - RZDataBinding (~> 2.0)
+  - RZImport (~> 1.3)
+  - RZUtils (~> 2.5)
+  - RZVinyl (~> 1.1)
+  - Specta
+  - SSPullToRefresh (~> 1.2)
+
+SPEC CHECKSUMS:
+  Bolts: 805a4a87413e49d4a0c2b7d469084cbc46b09342
+  CocoaLumberjack: 019d1361244274a6138c788c6cb80baabc13fb8f
+  Expecta: 9d1bff6c8b0eeee73a166a2ee898892478927a15
+  INTULocationManager: 754f2800415378b7bb2c07be103449e1f6a2cc70
+  OCMock: 4c2925291f80407c3738dd1db14d21d0cc278864
+  OHHTTPStubs: 0aec5755528693a165bd616cb79f69387de306a8
+  Parse: 17ad8e0677ed682f7f00503860fcda0f4eb74168
+  ParseCrashReporting: d912cb10b7997ef79ac475db30997e64d48c2c98
+  pop: bb773ae2c791ca2629de13b347e7a8b450fa6a57
+  RZCollectionList: 0a68ff56f07fc56212ab0a8258fa103b90e91e11
+  RZDataBinding: cee51c9865c82e37adc4639fe408a6f81abe79ad
+  RZImport: b28a0e94be0603ab23acd6fc3fbdb77421439c3f
+  RZUtils: cd28b216417433030583aaffe98ecfc761a22978
+  RZVinyl: 3ddb4a3e99e1f3063e06794aff124fc270fd2798
+  Specta: 69bb134672aae190a1379ff91df07dad8dd1f869
+  SSPullToRefresh: 369e862c1d6528c7a354fc85cd4763d4e670e9af
+
+COCOAPODS: 0.39.0
